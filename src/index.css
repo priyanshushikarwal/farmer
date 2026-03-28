@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-earth-50: #fdfcfb;
+  --color-earth-100: #f7f3f0;
+  --color-earth-200: #eee7e1;
+  --color-earth-300: #e0d1c5;
+  --color-earth-400: #cca88e;
+  --color-earth-500: #b38b6d;
+  --color-earth-600: #9c7152;
+  --color-earth-700: #825e45;
+  --color-earth-800: #6b4e3a;
+  --color-earth-900: #584131;
+  --color-earth-950: #2e221a;
+}
+
+@layer base {
+  body {
+    @apply bg-[#F9FAF9] text-gray-900 antialiased;
+  }
+}
+
+/* Custom Leaflet styling if needed */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 1.5rem;
+}

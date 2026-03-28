@@ -1,0 +1,5 @@
+{
+  "name": "Krishi Sahayak - Farmer's Crop Advisor",
+  "description": "An intelligent crop recommendation app for Indian farmers based on location, soil, and real-time weather.",
+  "requestFramePermissions": ["geolocation"]
+}
